@@ -1,0 +1,26 @@
+nav {
+    background-color: rgb(9, 255, 0);
+    padding: 10px;
+  }
+  
+  nav a {
+    color: rgb(7, 2, 2);
+    display: block;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: rgb(9, 255, 0);
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgb(9, 255, 0);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+  }
+  
+  p {
+    padding: 10px;
+  }
