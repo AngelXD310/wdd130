@@ -1,3 +1,8 @@
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
 nav {
     background-color: rgb(9, 255, 0);
     padding: 10px;
@@ -13,6 +18,19 @@ nav {
     color: rgb(9, 255, 0);
   }
   
+  aside {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #15ff00;
+    background-color: #33ff00;
+    color: #333;
+  }
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+
   img {
     width: 150px;
     height: auto;
@@ -22,5 +40,13 @@ nav {
   }
   
   p {
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
     padding: 10px;
   }
+  
