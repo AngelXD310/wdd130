@@ -50,3 +50,28 @@ nav {
     padding: 10px;
   }
   
+  :root {
+    --primary-color: #000000; /* Light blue */
+    --secondary-color: #07fc07; /* Green */
+    --accent-color: #ffffff; /* Red */
+    --background-color: #5d00d6; /* Light gray */
+  }
+  body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+  }
+  a {
+    color: var(--accent-color);
+  }
+
+  h1, h2 {
+    color: var(--secondary-color);
+  }
+  body {
+    font-family: 'Roboto', sans-serif; /* Body Font */
+  }
+
+  h1, h2 {
+    font-family: 'Lora', serif; /* Heading Font */
+  }  
+  /* Coolors Palette: https://coolors.co/3498db-2ecc71-e74c3c-ecf0f1 */
