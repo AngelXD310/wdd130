@@ -74,4 +74,30 @@ nav {
   h1, h2 {
     font-family: 'Lora', serif; /* Heading Font */
   }  
+
+  :root {
+    --primary-color: #2bff00;
+    --secondary-color: #020005;
+    --accent-color: #070600;
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero h1, .hero article {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+  }
+
+  .hero article img {
+    float: right;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
   /* Coolors Palette: https://coolors.co/3498db-2ecc71-e74c3c-ecf0f1 */
