@@ -138,6 +138,38 @@ footer .social-icons a img {
     width: 100px;
   }
 }
+.newsletter {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin: 40px 0;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 20px;
+  background-color: #007BFF;
+  color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
 
   
 
